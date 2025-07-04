@@ -1,8 +1,8 @@
-// docs/.vitepress/config.ts
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    title: 'My Docs',
+    title: 'docs',
+    base: '/docs/'.
     vite: {
         server: {
             port: 80
