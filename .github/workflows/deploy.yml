@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # lastUpdated 사용 시 필수, 아니면 생략 가능
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
