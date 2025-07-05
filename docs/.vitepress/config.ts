@@ -6,7 +6,7 @@ export default defineConfig({
     base: '/',
     cleanUrls: true,
     outDir: './dist',
-    lastUpdated: ture,
+    lastUpdated: true,
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
     ],
@@ -18,6 +18,10 @@ export default defineConfig({
         ],
         search: {
             provider: "local"
-        }
+        },
+        editLink: {
+            pattern: 'https://github.com/MineHint/docs/:path',
+            text: 'Edit this page on GitHub'
+        },
     }
 })
