@@ -6,4 +6,7 @@ export default defineConfig({
     base: '/',
     outDir: './dist',
     cleanUrls: true
+    themeConfig: {
+      logo: '/logo.png',
+    }
 })
