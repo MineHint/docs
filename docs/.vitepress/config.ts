@@ -6,11 +6,17 @@ export default defineConfig({
     base: '/',
     outDir: './dist',
     cleanUrls: true,
+    head: [
+        ['link', { rel: 'icon', href: '/logo.png' }],
+    ],
     themeConfig: {
         logo: '/logo.png',
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/MineHint/docs' },
-            { icon: 'discord', link: 'https://discord.gg/kQWYfkeTrn' }
-        ]
+            { icon: 'discord', link: 'https://discord.gg/kQWYfkeTrn' },
+            { icon: 'github', link: 'https://github.com/MineHint/docs' }
+        ],
+        search: {
+            provider: "local"
+        }
     }
 })
