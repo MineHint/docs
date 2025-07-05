@@ -20,8 +20,12 @@ export default defineConfig({
             provider: "local"
         },
         editLink: {
-            pattern: 'https://github.com/MineHint/docs/:path',
+            pattern: 'https://github.com/MineHint/docs/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
         },
+        footer: {
+            message: 'Released under the MIT License.',
+            copyright: '© 2025 MineHint'
+        }
     }
 })
