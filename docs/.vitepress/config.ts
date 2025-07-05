@@ -13,7 +13,7 @@ export default defineConfig({
         ['meta', { property: 'og:title', content: 'MineHint Docs' }],
         ['meta', { property: 'og:description', content: 'Documentation for Minecraft' }],
         ['meta', { property: 'og:image', content: '/logo.png' }],
-        ['meta', { name: 'theme-color', content: '#32a877' }]
+        ['meta', { name: 'theme-color', content: '#32a877' }],
         ['link', { rel: 'icon', href: '/logo.png' }],
     ],
     themeConfig: {
