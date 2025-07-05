@@ -4,8 +4,9 @@ export default defineConfig({
     title: 'MineHint Docs',
     description: 'MineHint Documentation',
     base: '/',
-    outDir: './dist',
     cleanUrls: true,
+    outDir: './dist',
+    lastUpdated: ture,
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
     ],
