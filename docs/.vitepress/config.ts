@@ -11,7 +11,4 @@ export default defineConfig({
     },
     outDir: './dist',
     cleanUrls: true,
-    rewrites: {
-        '**/*.md': 'index.html'
-    }
 })
