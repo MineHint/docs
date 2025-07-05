@@ -6,7 +6,8 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
+    "preview": "vitepress preview docs",
+    "deploy": "vitepress build docs && touch docs/.vitepress/dist/.nojekyll"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.28",
