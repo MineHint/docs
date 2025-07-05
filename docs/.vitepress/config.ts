@@ -7,6 +7,10 @@ export default defineConfig({
     outDir: './dist',
     cleanUrls: true,
     themeConfig: {
-      logo: '/logo.png',
+        logo: '/logo.png',
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/MineHint/docs' },
+            { icon: 'discord', link: 'https://discord.gg/kQWYfkeTrn' }
+        ]
     }
 })
