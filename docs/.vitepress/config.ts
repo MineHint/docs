@@ -8,6 +8,12 @@ export default defineConfig({
     outDir: './dist',
     lastUpdated: true,
     head: [
+        ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+        ['meta', { name: 'author', content: 'MineHint' }],
+        ['meta', { property: 'og:title', content: 'MineHint Docs' }],
+        ['meta', { property: 'og:description', content: 'Documentation for Minecraft' }],
+        ['meta', { property: 'og:image', content: '/logo.png' }],
+        ['meta', { name: 'theme-color', content: '#32a877' }]
         ['link', { rel: 'icon', href: '/logo.png' }],
     ],
     themeConfig: {
