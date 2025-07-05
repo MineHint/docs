@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -31,17 +32,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build VitePress
+      - name: Build with VitePress
         run: |
           npm run build
-          touch docs/.vitepress/dist/.nojekyll
+          touch docs/dist/.nojekyll
+          cp docs/dist/index.html docs/dist/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: docs/dist
 
-      - name: Configure GitHub Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v4
 
       - name: Deploy to GitHub Pages
