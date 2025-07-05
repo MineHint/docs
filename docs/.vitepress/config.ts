@@ -9,7 +9,7 @@ export default defineConfig({
             port: 80
         }
     },
-    outDir: 'docs/.vitepress/dist',
+    outDir: './dist',
     cleanUrls: true,
     rewrites: {
         '**/*.md': 'index.html'
