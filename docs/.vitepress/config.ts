@@ -5,7 +5,7 @@ export default defineConfig({
     description: 'MineHint Documentation',
     base: '/',
     outDir: './dist',
-    cleanUrls: true
+    cleanUrls: true,
     themeConfig: {
       logo: '/logo.png',
     }
