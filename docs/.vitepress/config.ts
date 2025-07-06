@@ -16,6 +16,24 @@ export default defineConfig({
         ['meta', { name: 'theme-color', content: '#32a877' }],
         ['link', { rel: 'icon', href: '/logo.png' }],
     ],
+    sidebar: [
+        {
+            text: 'Java Edition',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: 'Minecraft Module', link: '/mcje/module' },
+            ]
+        },
+        {
+            text: 'Bedrock Edition',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: 'Minecraft Module', link: '/mcbe/module' },
+            ]
+        }
+    ],
     themeConfig: {
         logo: '/logo.png',
         socialLinks: [
@@ -33,19 +51,5 @@ export default defineConfig({
             message: 'Released under the MIT License.',
             copyright: '© 2025 MineHint'
         },
-        sidebar: [
-            {
-                text: 'MCJE',
-                items: [
-                    { text: 'Minecraft Module', link: '/minecraft-module' },
-                ]
-            },
-            {
-                text: 'MCBE',
-                items: [
-                    { text: 'Minecraft Module', link: '/minecraft-module' },
-                ]
-            }
-        ]
     }
 })
