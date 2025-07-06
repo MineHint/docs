@@ -23,9 +23,7 @@ export default defineConfig({
         text: 'Java Edition',
         collapsible: true,
         collapsed: true,
-        items: [
-          { text: 'Minecraft Module', link: '/MCJE/module.md' },
-        ]
+        items: [],
       },
       {
         text: 'Bedrock Edition',
@@ -34,6 +32,12 @@ export default defineConfig({
         items: [
           { text: 'Minecraft Module', link: '/MCBE/module.md' },
         ]
+      },
+      {
+        text: 'Education Edition',
+        collapsible: true,
+        collapsed: true,
+        items: []
       }
     ],
     socialLinks: [
