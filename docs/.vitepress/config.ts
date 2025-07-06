@@ -35,7 +35,13 @@ export default defineConfig({
         },
         sidebar: [
             {
-                text: 'MCBE Scripting API',
+                text: 'MCJE',
+                items: [
+                    { text: 'Minecraft Module', link: '/minecraft-module' },
+                ]
+            },
+            {
+                text: 'MCBE',
                 items: [
                     { text: 'Minecraft Module', link: '/minecraft-module' },
                 ]
