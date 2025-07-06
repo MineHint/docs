@@ -43,7 +43,7 @@ export default defineConfig({
           ]
         },
       ]
-    }
+    },
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/kQWYfkeTrn' },
       { icon: 'github', link: 'https://github.com/MineHint/docs' }
