@@ -22,7 +22,7 @@ export default defineConfig({
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Minecraft Module', link: '/mcje/module' },
+                { text: 'Minecraft Module', link: '/MCJE/module.md' },
             ]
         },
         {
@@ -30,7 +30,7 @@ export default defineConfig({
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Minecraft Module', link: '/mcbe/module' },
+                { text: 'Minecraft Module', link: '/MCBE/module.md' },
             ]
         }
     ],
