@@ -32,10 +32,8 @@ export default defineConfig({
         items: [
           {
             text: 'Scripting API',
-            collapsible: true,
-            collapsed: true,
             items: [
-              { text: 'Minecraft Module', link: '/MCBE/module.md' },
+              { text: 'Minecraft Module', link: '/MCBE/scripting-api/module.md' },
             ]
           },
         ]
