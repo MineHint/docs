@@ -18,7 +18,15 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.png',
-   sidebar: {
+    sidebar: {
+      '/MCJE/': [
+        {
+          text: 'Java Edition',
+          collapsible: true,
+          collapsed: true,
+          items: []
+        }
+      ],
       '/MCBE/': [
         {
           text: 'Bedrock Edition',
@@ -29,19 +37,19 @@ export default defineConfig({
               text: 'Scripting API',
               collapsible: true,
               items: [
-                { text: 'Minecraft Module', link: '/MCBE/scripting-api/module.md' },
-              ]
-            },
-            {
-              text: 'Add-ons',
-              collapsible: true,
-              items: [
-                { text: 'Behavior Packs', link: '/MCBE/addons/behavior-packs.md' },
-                { text: 'Resource Packs', link: '/MCBE/addons/resource-packs.md' },
+                { text: 'Minecraft Module', link: '/MCBE/scripting-api/module.md' }
               ]
             }
           ]
         },
+      ],
+      '/MCEE/': [
+        {
+          text: 'Education Edition',
+          collapsible: true,
+          collapsed: true,
+          items: []
+        }
       ]
     },
     socialLinks: [
