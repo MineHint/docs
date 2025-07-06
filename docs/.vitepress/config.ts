@@ -18,40 +18,34 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.png',
-    sidebar: {
-      '/MCJE/': [
-        {
-          text: 'Java Edition',
-          collapsible: true,
-          collapsed: true,
-          items: []
-        }
-      ],
-      '/MCBE/': [
-        {
-          text: 'Bedrock Edition',
-          collapsible: true,
-          collapsed: true,
-          items: [
-            {
-              text: 'Scripting API',
-              collapsible: true,
-              items: [
-                { text: 'Minecraft Module', link: '/MCBE/scripting-api/module.md' }
-              ]
-            }
-          ]
-        },
-      ],
-      '/MCEE/': [
-        {
-          text: 'Education Edition',
-          collapsible: true,
-          collapsed: true,
-          items: []
-        }
-      ]
-    },
+    sidebar: [
+      {
+        text: 'Java Edition',
+        collapsible: true,
+        collapsed: true,
+        items: []
+      },
+      {
+        text: 'Bedrock Edition',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Scripting API',
+            collapsible: true,
+            items: [
+              { text: 'Minecraft Module', link: '/MCBE/scripting-api/module.md' }
+            ]
+          }
+        ]
+      },
+      {
+        text: 'Education Edition',
+        collapsible: true,
+        collapsed: true,
+        items: []
+      }
+    ],
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/kQWYfkeTrn' },
       { icon: 'github', link: 'https://github.com/MineHint/docs' }
