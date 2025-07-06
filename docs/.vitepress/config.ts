@@ -32,6 +32,14 @@ export default defineConfig({
         footer: {
             message: 'Released under the MIT License.',
             copyright: '© 2025 MineHint'
-        }
+        },
+        sidebar: [
+            {
+                text: 'MCBE Scripting API',
+                items: [
+                    { text: 'Minecraft Module', link: '/minecraft-module' },
+                ]
+            }
+        ]
     }
 })
