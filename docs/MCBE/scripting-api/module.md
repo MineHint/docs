@@ -1,1 +1,1 @@
-# Minecraft Scripting API version
+# Scripting API Module version
