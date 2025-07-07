@@ -1,1 +1,39 @@
-# Scripting API Module version
+# Scripting API Module Version
+
+> **File:** `manifest.json`  
+> **Minecraft Version:** `1.21.93`  
+> **Beta Modules**
+
+### ▸ `@minecraft/server`
+```json
+{
+  "module": "@minecraft/server",
+  "version": "2.0.0-beta"
+}
+```
+
+### ▸ `@minecraft/server-ui`
+```json
+{
+  "module": "@minecraft/server-ui",
+  "version": "2.0.0-beta"
+}
+```
+
+### ▸ `@minecraft/server-gametest`
+```json
+{
+  "module": "@minecraft/server-gametest",
+  "version": "1.0.0-beta"
+}
+```
+
+---
+
+### Table Summary
+
+| Module Name                  | Version        | File             | Minecraft Version |
+|-----------------------------|----------------|------------------|-------------------|
+| `@minecraft/server`         | `2.0.0-beta`   | `manifest.json`  | `1.21.93`         |
+| `@minecraft/server-ui`      | `2.0.0-beta`   | `manifest.json`  | `1.21.93`         |
+| `@minecraft/server-gametest`| `1.0.0-beta`   | `manifest.json`  | `1.21.93`         |
