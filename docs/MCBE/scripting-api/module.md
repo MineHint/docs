@@ -4,6 +4,7 @@
 > **Minecraft Version:** `1.21.93`  
 > **Beta Modules**
 
+::: code-group
 ### ▸ `@minecraft/server`
 ```json [mainfest.json]
 {
@@ -11,7 +12,9 @@
   "version": "2.0.0-beta"
 }
 ```
+:::
 
+::: code-group
 ### ▸ `@minecraft/server-ui`
 ```json [mainfest.json]
 {
@@ -19,7 +22,9 @@
   "version": "2.0.0-beta"
 }
 ```
+:::
 
+::: code-group
 ### ▸ `@minecraft/server-gametest`
 ```json [mainfest.json]
 {
@@ -27,6 +32,7 @@
   "version": "1.0.0-beta"
 }
 ```
+:::
 
 ---
 
