@@ -5,7 +5,7 @@
 > **Beta Modules**
 
 ### ▸ `@minecraft/server`
-```json
+```json [mainfest.json]
 {
   "module": "@minecraft/server",
   "version": "2.0.0-beta"
@@ -13,7 +13,7 @@
 ```
 
 ### ▸ `@minecraft/server-ui`
-```json
+```json [mainfest.json]
 {
   "module": "@minecraft/server-ui",
   "version": "2.0.0-beta"
@@ -21,7 +21,7 @@
 ```
 
 ### ▸ `@minecraft/server-gametest`
-```json
+```json [mainfest.json]
 {
   "module": "@minecraft/server-gametest",
   "version": "1.0.0-beta"
