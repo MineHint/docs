@@ -30,18 +30,18 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build with VitePress
         run: |
-          npx vitepress build docs
-          touch docs/.vitepress/dist/.nojekyll
-          cp docs/.vitepress/dist/index.html docs/.vitepress/dist/404.html
+          npm run build
+          touch docs/dist/.nojekyll
+          cp docs/dist/index.html docs/dist/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: docs/dist
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
