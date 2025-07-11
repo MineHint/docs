@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'MineHint Docs',
   description: 'MineHint Documentation',
+  titleTemplate: false,
   base: '/',
   cleanUrls: true,
   outDir: './dist',
