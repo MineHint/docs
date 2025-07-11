@@ -32,11 +32,21 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: 'Command',
+            collapsible: true,
+            items: []
+          },
+          {
             text: 'Scripting API',
             collapsible: true,
             items: [
               { text: 'Module Version', link: '/MCBE/scripting-api/module.md' }
             ]
+          },
+          {
+            text: 'WebSocket',
+            collapsible: true,
+            items: []
           }
         ]
       },
