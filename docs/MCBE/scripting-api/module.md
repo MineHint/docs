@@ -1,3 +1,7 @@
+---
+oz: true
+---
+
 # Scripting API Module Version
 
 > **File:** `manifest.json`  
