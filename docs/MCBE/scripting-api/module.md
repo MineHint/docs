@@ -38,12 +38,23 @@ oz: true
 ```
 :::
 
+### ▸ `@minecraft/server-net` `Server Only`
+
+::: code-group
+```json [manifest.json]
+{
+  "module": "@minecraft/server-net",
+  "version": "1.0.0-beta"
+}
+:::
+
 ---
 
 ### Table Summary
 
-| Module Name                  | Version        | File             | Minecraft Version |
-|-----------------------------|----------------|------------------|-------------------|
-| `@minecraft/server`         | `2.1.0-beta`   | `manifest.json`  | `1.21.93`         |
-| `@minecraft/server-ui`      | `2.1.0-beta`   | `manifest.json`  | `1.21.93`         |
-| `@minecraft/server-gametest`| `1.0.0-beta`   | `manifest.json`  | `1.21.93`         |
+| Module Name                  | Version        | File            |
+|-----------------------------|----------------|------------------|
+| `@minecraft/server`         | `2.1.0-beta`   | `manifest.json`  |
+| `@minecraft/server-ui`      | `2.1.0-beta`   | `manifest.json`  |
+| `@minecraft/server-gametest`| `1.0.0-beta`   | `manifest.json`  |
+| `@minecraft/server-net`     | `1.0.0-beta`   | `manifest.json`  |
