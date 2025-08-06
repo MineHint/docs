@@ -5,7 +5,7 @@ oz: true
 # Scripting API Module Version
 
 > **File:** `manifest.json`  
-> **Minecraft Version:** `1.21.93`  
+> **Minecraft Version:** `1.21.100`  
 > **Beta Modules**
 
 ### ▸ `@minecraft/server`
@@ -13,7 +13,7 @@ oz: true
 ```json [manifest.json]
 {
   "module": "@minecraft/server",
-  "version": "2.1.0-beta"
+  "version": "2.2.0-beta"
 }
 ```
 :::
@@ -23,7 +23,7 @@ oz: true
 ```json [mainfest.json]
 {
   "module": "@minecraft/server-ui",
-  "version": "2.1.0-beta"
+  "version": "2.2.0-beta"
 }
 ```
 :::
@@ -54,7 +54,7 @@ oz: true
 
 | Module Name                  | Version        | File            |
 |-----------------------------|----------------|------------------|
-| `@minecraft/server`         | `2.1.0-beta`   | `manifest.json`  |
-| `@minecraft/server-ui`      | `2.1.0-beta`   | `manifest.json`  |
+| `@minecraft/server`         | `2.2.0-beta`   | `manifest.json`  |
+| `@minecraft/server-ui`      | `2.2.0-beta`   | `manifest.json`  |
 | `@minecraft/server-gametest`| `1.0.0-beta`   | `manifest.json`  |
 | `@minecraft/server-net`     | `1.0.0-beta`   | `manifest.json`  |
