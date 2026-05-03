@@ -9,6 +9,7 @@ export default defineConfig({
   base: '/',
   cleanUrls: true,
   head: [
+    ['link', { rel: 'icon', href: '/images/logo.png' }],
     ['meta', { name: 'keywords', content: '마인힌트 문서, 마인힌트' }],
     ['meta', { name: 'author', content: '마인힌트' }],
     ['meta', { property: 'og:type', content: 'website' }],
