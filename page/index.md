@@ -3,23 +3,18 @@
 layout: home
 
 hero:
-  name: "마인힌트 문서"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "마인힌트 문서"
+  tagline: 마인힌트 관련 문서를 쉽게 찾고 읽을 수 있어요.
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 개인정보처리방침
+      link: /pp
+    - theme: alt
+      text: 이용약관
+      link: /tos
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 마인힌트 포스트
+    details: 마인힌트 포스트 문서도 해당 웹사이트에서 확인 가능해요.
 ---
 
